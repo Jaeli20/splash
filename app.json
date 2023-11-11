@@ -3,9 +3,20 @@
     "name": "test",
     "slug": "test",
     "version": "1.0.0",
+    "icon": "icono.png",
+    "splash": {
+      "image": "splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#b88984"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ddd9ee82-aa82-443e-b064-25484c019ad0"
+      }
+    }
   },
   "name": "test"
 }
